@@ -1,0 +1,223 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  left: 0px;
+  top: 0px;
+  background: #FFDBED;
+}
+
+.top-bar {
+  position: absolute;
+  width: 37.2%;
+  height: 100%;
+  left: -1.2%;
+  top: 0px;
+  background: #FEF3F1;
+  border-radius: 0px 50px;
+  background-size: cover;
+}
+
+.main-content {
+  position: absolute;
+  width: 100%;
+  height: 113%;
+  top: 25%;
+  background: #FFDBED;
+}
+
+.left-content {
+  position: absolute;
+  width: 62.2%;
+  height: 80%;
+  left: 0px;
+}
+
+.right-content {
+  position: absolute;
+  width: 30%;
+  height: 58%;
+  left: 62.2%;
+  top: 15%;
+  
+  background: #FEF3F1;
+  border-radius: 0px 50px 50px 50px;
+}
+
+.foguete {
+  position: absolute;
+  width: 100%;
+  height: 187px;
+  top: 67.4%;
+
+  border-radius: 0px 0px 50px 50px;
+}
+
+.dados {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  left: 8%;
+  top: 10%;
+}
+
+.name {
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  background: #E5E5E5;
+  border-radius: 50px;
+  margin-top: 2%;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  border: #E5E5E5;
+}
+
+.name:focus {
+  outline: none;
+  background-color: #F71964;
+  color: #FEF3F1;
+}
+
+.email:focus {
+  outline: none;
+  background-color: #F71964;
+  color: #FEF3F1;
+}
+
+.email:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FEF3F1;
+}
+
+.name:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FEF3F1;
+}
+
+.email {
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  background: #E5E5E5;
+  border-radius: 50px;
+  margin-top: 5%;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  border: #E5E5E5;
+}
+
+.textoCadastro {
+  width: 80%;
+  height: 10%;
+  margin-left: 2%;
+  margin-top: -2%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #0E2036;
+}
+
+.rodape {
+  width: 19%;
+  margin-left: 40.5%;
+  margin-top: 49%;
+}
+
+.linkRodape {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #0E2036;
+}
+
+.buttonRegister {
+  width: 35%;
+  height: 18%;
+  margin-left: 32.5%;
+  margin-top: 4%;
+
+  background: #0E2036;
+  border-radius: 80px;
+  color: #ABAAAA;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 27px;
+  cursor: pointer;
+  
+}
+
+.divCadastro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 8%;
+  top: 28%;
+}
+
+.divPropaganda {
+  position: absolute;
+  width: 344px;
+  height: 68.1%;
+  left: 28%;
+  top: 11%;
+
+  background: #FFC0DE;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 65px;
+}
+
+.imgAstronautas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  border-radius: 0px 50px 50px 50px;
+}
+
+.textoPropaganda {
+  position: absolute;
+  width: 47%;
+  height: 266px;
+  left: 26.5%;
+  top: 2%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #0E2036;
+}
+
+.imgGama {
+  position: absolute;
+  width: 70%;
+  height: 20%;
+  left: 15%;
+  top: 70%;
+}
